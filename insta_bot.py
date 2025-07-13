@@ -7,6 +7,9 @@ from time import sleep
 import pytz
 from enum import Enum, auto
 
+from dotenv import load_dotenv
+load_dotenv()  # Загружает переменные из .env файла
+
 from telegram import (
     Update, 
     ReplyKeyboardMarkup, 
