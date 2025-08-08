@@ -18,7 +18,7 @@ from sqlalchemy.exc import SQLAlchemyError
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 from config import get_config, BotConfig
-from enhanced_insta_bot import Base, InstagramAccount, Publication, BotMetrics, UserSettings
+from insta_bot import Base, InstagramAccount, Publication, BotMetrics, UserSettings
 
 logger = logging.getLogger(__name__)
 
